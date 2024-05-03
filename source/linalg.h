@@ -1,0 +1,18 @@
+void gaussj(double **A, int n, double **b, int m = 1);
+void ludcmp(double **a, int n, int *indx, double *d);
+void lubksb(double **a, int n, int *indx, double b[]);
+void invert_matrix(double **a, int n, double** ia);
+void svdcmp(double **a, int m, int n, double w[], double **v);
+double pythag(double a, double b);
+void choldc(double **a, int n, double p[]);
+void cholsl(double **a, int n, double p[], double b[], double x[]);
+void qrdcmp(double **a, int n, double *c, double *d, int *sing);
+void qrsolv(double **a, int n, double c[], double d[], double b[]);
+void rsolv(double **a, int n, double d[], double b[]);
+void jacobi(double **a, int n, double d[], double **v, int *nrot);
+void tred2(double **a, int n, double d[], double e[]);
+void tqli(double d[], double e[], int n, double **z);
+double det3x3(double a[][3]);
+double det3x3(double** a);
+void inv3x3(float** A, float** iA);
+void cubic(double p[], double sol[], int* nreal);
