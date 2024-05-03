@@ -1,0 +1,190 @@
+﻿生成启动时间为 5/16/2018 11:19:15 PM。
+     1>项目“C:\Users\Owner\Desktop\project-grace-cuda\project-wish-cuda.vcxproj”在节点 2 上(Build 个目标)。
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /DNDEBUG /D_CONSOLE /D_UNICODE /DUNICODE /IC:\cuda\toolkit\include /IC:\cuda\toolkit\bin /IC:\cuda\toolkit\include /I. /FIcuda_runtime.h /c C:\Users\Owner\Desktop\project-grace-cuda\grace.cu 
+     1>项目“C:\Users\Owner\Desktop\project-grace-cuda\project-wish-cuda.vcxproj”(1)正在节点 2 上生成“C:\Users\Owner\Desktop\project-grace-cuda\project-wish-cuda.vcxproj”(1:2) (CudaBuildCore 个目标)。
+     1>CudaBuildCore:
+         Compiling CUDA source file grace.cu...
+         cmd.exe /C "C:\Temp\tmp9bb865de70d644ebaf965d17763a26ff.cmd"
+         "C:\cuda\toolkit\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -IC:\cuda\toolkit\include -IC:\cuda\toolkit\include     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MT " -o x64\Release\grace.cu.obj "C:\Users\Owner\Desktop\project-grace-cuda\grace.cu"
+         
+         C:\Users\Owner\Desktop\project-grace-cuda>"C:\cuda\toolkit\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -IC:\cuda\toolkit\include -IC:\cuda\toolkit\include     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MT " -o x64\Release\grace.cu.obj "C:\Users\Owner\Desktop\project-grace-cuda\grace.cu" 
+     1>c:\cuda\toolkit\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(849): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(1787): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(2637): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(3492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(4431): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(5345): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(6252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(7142): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(7956): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions.h(774): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions.h(1618): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:/Users/Owner/Desktop/project-grace-cuda/grace.cu(132): warning : variable "cudaStatus" was set but never used
+     1>c:\cuda\toolkit\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(849): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(1787): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(2637): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(3492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(4431): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(5345): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(6252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(7142): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(7956): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions.h(774): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions.h(1618): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\softwares\opencv\build\include\opencv2\flann\lsh_table.h(215): warning : statement is unreachable
+     1>d:\softwares\opencv\build\include\opencv2\flann\lsh_table.h(220): warning : statement is unreachable
+     1>d:\softwares\opencv\build\include\opencv2\flann\lsh_table.h(229): warning : statement is unreachable
+     1>d:\softwares\opencv\build\include\opencv2\flann\index_testing.h(248): warning : variable "p1" was set but never used
+     1>C:/Users/Owner/Desktop/project-grace-cuda/grace.cu(132): warning : variable "cudaStatus" was set but never used
+     1>c:\cuda\toolkit\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(849): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(1787): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(2637): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(3492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(4431): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(5345): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(6252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(7142): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(7956): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(849): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(1787): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(2637): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(3492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(4431): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(5345): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(6252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(7142): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(7956): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions_decls.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions_decls.h(910): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions_decls.h(1903): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions_decls.h(2843): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions_decls.h(3779): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions_decls.h(4721): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions_decls.h(5723): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions_decls.h(6682): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions_decls.h(7610): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions_decls.h(8543): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions_decls.h(9413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions_decls.h(10391): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions_decls.h(11435): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions.h(774): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions.h(1618): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(849): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(1787): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(2637): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(3492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(4431): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(5345): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(6252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(7142): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(7956): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+         grace.cu
+     1>c:\users\owner\desktop\project-grace-cuda\cv2sim\StdAfx.h(14): warning C4244: “=”: 从“int64”转换到“double”，可能丢失数据
+     1>已完成生成项目“C:\Users\Owner\Desktop\project-grace-cuda\project-wish-cuda.vcxproj”(CudaBuildCore 个目标)的操作。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\cuda\toolkit\include /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D WIN64 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt .\cv2sim\cv2simSmall.cpp .\cv2sim\imagealign.cpp .\cv2sim\robust_estimators.cpp grace_main.cpp
+         cv2simSmall.cpp
+     1>.\cv2sim\cv2simSmall.cpp(262): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>.\cv2sim\cv2simSmall.cpp(273): warning C4101: “s”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(273): warning C4101: “q”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(273): warning C4101: “r”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(481): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>.\cv2sim\cv2simSmall.cpp(342): warning C4101: “jd”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(342): warning C4101: “id”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(342): warning C4101: “w”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(506): warning C4101: “newmask”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(492): warning C4101: “s”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(492): warning C4101: “q”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(506): warning C4101: “newval”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(492): warning C4101: “r”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(342): warning C4101: “j”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(752): warning C4244: “初始化”: 从“int64”转换到“double”，可能丢失数据
+     1>.\cv2sim\cv2simSmall.cpp(810): warning C4244: “=”: 从“int64”转换到“double”，可能丢失数据
+     1>.\cv2sim\cv2simSmall.cpp(872): warning C4244: “=”: 从“int64”转换到“double”，可能丢失数据
+     1>.\cv2sim\cv2simSmall.cpp(890): warning C4101: “blobPtr”: 未引用的局部变量
+         imagealign.cpp
+         robust_estimators.cpp
+     1>.\cv2sim\robust_estimators.cpp(12): warning C4005: “__min”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(182) : 参见“__min”的前一个定义
+     1>.\cv2sim\robust_estimators.cpp(13): warning C4005: “__max”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(181) : 参见“__max”的前一个定义
+     1>.\cv2sim\robust_estimators.cpp(44): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>.\cv2sim\robust_estimators.cpp(156): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>.\cv2sim\robust_estimators.cpp(187): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>.\cv2sim\robust_estimators.cpp(381): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>.\cv2sim\robust_estimators.cpp(419): warning C4804: “>”: 在操作中使用类型“bool”不安全
+     1>.\cv2sim\robust_estimators.cpp(481): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>.\cv2sim\robust_estimators.cpp(537): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>.\cv2sim\robust_estimators.cpp(616): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>.\cv2sim\robust_estimators.cpp(659): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>.\cv2sim\robust_estimators.cpp(699): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>.\cv2sim\robust_estimators.cpp(737): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>.\cv2sim\robust_estimators.cpp(785): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+         grace_main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Owner\Desktop\project-grace-cuda\x64\Release\project-wish-cuda.exe" /NOLOGO /LIBPATH:C:\cuda\toolkit\lib\x64 cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\Owner\Desktop\project-grace-cuda\x64\Release\project-wish-cuda.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Owner\Desktop\project-grace-cuda\x64\Release\project-wish-cuda.lib" /MACHINE:X64 x64\Release\grace.cu.obj
+         x64\Release\affine.obj
+         x64\Release\brMemalloc.obj
+         x64\Release\Candidate.obj
+         x64\Release\cmotion_detection.obj
+         x64\Release\CornerClass.obj
+         x64\Release\cv2simSmall.obj
+         x64\Release\dmatrix.obj
+         x64\Release\draw.obj
+         x64\Release\homography.obj
+         x64\Release\imagealign.obj
+         x64\Release\light_scaling.obj
+         x64\Release\LinAlg.obj
+         x64\Release\match.obj
+         x64\Release\median.obj
+         x64\Release\mic.obj
+         x64\Release\minmax.obj
+         x64\Release\nms.obj
+         x64\Release\nrutil.obj
+         x64\Release\optim.obj
+         x64\Release\robust_estimators.obj
+         x64\Release\select.obj
+         x64\Release\grace_main.obj
+         正在生成代码
+         已完成代码的生成
+         project-wish-cuda.vcxproj -> C:\Users\Owner\Desktop\project-grace-cuda\x64\Release\project-wish-cuda.exe
+       PostBuildEvent:
+         echo copy "C:\cuda\toolkit\bin\cudart*.dll" "C:\Users\Owner\Desktop\project-grace-cuda\x64\Release\"
+         copy "C:\cuda\toolkit\bin\cudart*.dll" "C:\Users\Owner\Desktop\project-grace-cuda\x64\Release\"
+         :VCEnd
+         copy "C:\cuda\toolkit\bin\cudart*.dll" "C:\Users\Owner\Desktop\project-grace-cuda\x64\Release\"
+         C:\cuda\toolkit\bin\cudart32_80.dll
+         C:\cuda\toolkit\bin\cudart64_80.dll
+                 2 file(s) copied.
+     1>已完成生成项目“C:\Users\Owner\Desktop\project-grace-cuda\project-wish-cuda.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.95

@@ -1,0 +1,63 @@
+﻿生成启动时间为 8/1/2018 2:29:23 PM。
+     1>项目“C:\Users\Owner\Desktop\project-grace-cuda\project-wish-cuda.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\cuda\toolkit\include /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WITH_GRACE /D WIN32 /D WIN64 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"x64\GraceCPP\\" /Fd"x64\GraceCPP\vc120.pdb" /Gd /TP /errorReport:prompt .\cv2sim\cv2simSmall.cpp grace_main.cpp
+         cv2simSmall.cpp
+     1>.\cv2sim\cv2simSmall.cpp(262): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>.\cv2sim\cv2simSmall.cpp(273): warning C4101: “s”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(273): warning C4101: “q”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(273): warning C4101: “r”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(481): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>.\cv2sim\cv2simSmall.cpp(342): warning C4101: “jd”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(342): warning C4101: “id”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(342): warning C4101: “w”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(506): warning C4101: “newmask”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(492): warning C4101: “s”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(492): warning C4101: “q”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(506): warning C4101: “newval”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(492): warning C4101: “r”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(342): warning C4101: “j”: 未引用的局部变量
+         grace_main.cpp
+     1>c:\users\owner\desktop\project-grace-cuda\cv2sim\StdAfx.h(14): warning C4244: “=”: 从“int64”转换到“double”，可能丢失数据
+     1>grace_main.cpp(155): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>grace_main.cpp(191): warning C4101: “blobPtr”: 未引用的局部变量
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Owner\Desktop\project-grace-cuda\x64\GraceCPP\project-wish-cuda.exe" /NOLOGO /LIBPATH:C:\cuda\toolkit\lib\x64 cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\Owner\Desktop\project-grace-cuda\x64\GraceCPP\project-wish-cuda.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Owner\Desktop\project-grace-cuda\x64\GraceCPP\project-wish-cuda.lib" /MACHINE:X64 x64\GraceCPP\grace.cu.obj
+         x64\GraceCPP\affine.obj
+         x64\GraceCPP\brMemalloc.obj
+         x64\GraceCPP\Candidate.obj
+         x64\GraceCPP\cmotion_detection.obj
+         x64\GraceCPP\CornerClass.obj
+         x64\GraceCPP\cv2simSmall.obj
+         x64\GraceCPP\dmatrix.obj
+         x64\GraceCPP\draw.obj
+         x64\GraceCPP\homography.obj
+         x64\GraceCPP\imagealign.obj
+         x64\GraceCPP\light_scaling.obj
+         x64\GraceCPP\LinAlg.obj
+         x64\GraceCPP\match.obj
+         x64\GraceCPP\median.obj
+         x64\GraceCPP\mic.obj
+         x64\GraceCPP\minmax.obj
+         x64\GraceCPP\nms.obj
+         x64\GraceCPP\nrutil.obj
+         x64\GraceCPP\optim.obj
+         x64\GraceCPP\robust_estimators.obj
+         x64\GraceCPP\select.obj
+         x64\GraceCPP\grace_main.obj
+         正在生成代码
+         已完成代码的生成
+         project-wish-cuda.vcxproj -> C:\Users\Owner\Desktop\project-grace-cuda\x64\GraceCPP\project-wish-cuda.exe
+       PostBuildEvent:
+         echo copy "C:\cuda\toolkit\bin\cudart*.dll" "C:\Users\Owner\Desktop\project-grace-cuda\x64\GraceCPP\"
+         copy "C:\cuda\toolkit\bin\cudart*.dll" "C:\Users\Owner\Desktop\project-grace-cuda\x64\GraceCPP\"
+         :VCEnd
+         copy "C:\cuda\toolkit\bin\cudart*.dll" "C:\Users\Owner\Desktop\project-grace-cuda\x64\GraceCPP\"
+         C:\cuda\toolkit\bin\cudart32_80.dll
+         C:\cuda\toolkit\bin\cudart64_80.dll
+                 2 file(s) copied.
+     1>已完成生成项目“C:\Users\Owner\Desktop\project-grace-cuda\project-wish-cuda.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.37
