@@ -1,0 +1,441 @@
+﻿生成启动时间为 5/16/2018 11:10:19 PM。
+     1>项目“C:\Users\Owner\Desktop\project-grace-cuda\project-wish-cuda.vcxproj”在节点 2 上(Build 个目标)。
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DNDEBUG /D_CONSOLE /D_MBCS /IC:\cuda\toolkit\include /IC:\cuda\toolkit\bin /IC:\cuda\toolkit\include /I. /FIcuda_runtime.h /c C:\Users\Owner\Desktop\project-grace-cuda\grace.cu 
+     1>项目“C:\Users\Owner\Desktop\project-grace-cuda\project-wish-cuda.vcxproj”(1)正在节点 2 上生成“C:\Users\Owner\Desktop\project-grace-cuda\project-wish-cuda.vcxproj”(1:2) (CudaBuildCore 个目标)。
+     1>CudaBuildCore:
+         Compiling CUDA source file grace.cu...
+         cmd.exe /C "C:\Temp\tmp1d620684c8ad4a419aff4e257d7f416d.cmd"
+         "C:\cuda\toolkit\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -IC:\cuda\toolkit\include -IC:\cuda\toolkit\include     --keep-dir GraceCPP -maxrregcount=0  --machine 32 --compile -cudart static     -DWIN32 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o GraceCPP\grace.cu.obj "C:\Users\Owner\Desktop\project-grace-cuda\grace.cu"
+         
+         C:\Users\Owner\Desktop\project-grace-cuda>"C:\cuda\toolkit\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -IC:\cuda\toolkit\include -IC:\cuda\toolkit\include     --keep-dir GraceCPP -maxrregcount=0  --machine 32 --compile -cudart static     -DWIN32 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o GraceCPP\grace.cu.obj "C:\Users\Owner\Desktop\project-grace-cuda\grace.cu" 
+     1>c:\cuda\toolkit\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(849): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(1787): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(2637): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(3492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(4431): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(5345): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(6252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(7142): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(7956): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions.h(774): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions.h(1618): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\softwares\opencv\build\include\opencv2/core/types_c.h(320): warning : variable "t" is used before its value is set
+     1>C:/Users/Owner/Desktop/project-grace-cuda/grace.cu(132): warning : variable "cudaStatus" was set but never used
+     1>c:\cuda\toolkit\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(849): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(1787): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(2637): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(3492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(4431): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(5345): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(6252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(7142): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(7956): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions.h(774): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions.h(1618): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\softwares\opencv\build\include\opencv2/core/types_c.h(320): warning : variable "t" is used before its value is set
+     1>d:\softwares\opencv\build\include\opencv2\flann\lsh_table.h(215): warning : statement is unreachable
+     1>d:\softwares\opencv\build\include\opencv2\flann\lsh_table.h(220): warning : statement is unreachable
+     1>d:\softwares\opencv\build\include\opencv2\flann\lsh_table.h(229): warning : statement is unreachable
+     1>d:\softwares\opencv\build\include\opencv2\flann\index_testing.h(248): warning : variable "p1" was set but never used
+     1>C:/Users/Owner/Desktop/project-grace-cuda/grace.cu(132): warning : variable "cudaStatus" was set but never used
+     1>c:\cuda\toolkit\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(849): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(1787): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(2637): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(3492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(4431): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(5345): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(6252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(7142): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(7956): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(849): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(1787): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(2637): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(3492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(4431): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(5345): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(6252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(7142): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(7956): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions_decls.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions_decls.h(910): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions_decls.h(1903): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions_decls.h(2843): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions_decls.h(3779): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions_decls.h(4721): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions_decls.h(5723): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions_decls.h(6682): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions_decls.h(7610): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions_decls.h(8543): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions_decls.h(9413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions_decls.h(10391): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions_decls.h(11435): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions.h(774): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_functions.h(1618): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(849): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(1787): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(2637): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(3492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(4431): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(5345): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(6252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(7142): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\cuda\toolkit\include\math_functions.h(7956): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+         grace.cu
+     1>c:\users\owner\desktop\project-grace-cuda\cv2sim\StdAfx.h(14): warning C4244: “=”: 从“int64”转换到“double”，可能丢失数据
+     1>已完成生成项目“C:\Users\Owner\Desktop\project-grace-cuda\project-wish-cuda.vcxproj”(CudaBuildCore 个目标)的操作。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\cuda\toolkit\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"GraceCPP\\" /Fd"GraceCPP\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt .\cv2sim\affine.cpp .\cv2sim\brMemalloc.cpp .\cv2sim\Candidate.cpp .\cv2sim\cmotion_detection.cpp .\cv2sim\CornerClass.cpp .\cv2sim\cv2simSmall.cpp .\cv2sim\dmatrix.cpp .\cv2sim\draw.cpp .\cv2sim\homography.cpp .\cv2sim\imagealign.cpp .\cv2sim\light_scaling.cpp .\cv2sim\LinAlg.cpp .\cv2sim\match.cpp .\cv2sim\median.cpp .\cv2sim\mic.cpp .\cv2sim\minmax.cpp .\cv2sim\nms.cpp .\cv2sim\nrutil.cpp .\cv2sim\optim.cpp .\cv2sim\robust_estimators.cpp .\cv2sim\select.cpp grace_main.cpp
+         affine.cpp
+         brMemalloc.cpp
+         Candidate.cpp
+     1>.\cv2sim\Candidate.cpp(13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>.\cv2sim\Candidate.cpp(37): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+         cmotion_detection.cpp
+         CornerClass.cpp
+     1>.\cv2sim\CornerClass.cpp(7): warning C4005: “__min”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(182) : 参见“__min”的前一个定义
+         cv2simSmall.cpp
+     1>.\cv2sim\cv2simSmall.cpp(262): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>.\cv2sim\cv2simSmall.cpp(273): warning C4101: “s”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(273): warning C4101: “q”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(273): warning C4101: “r”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(481): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>.\cv2sim\cv2simSmall.cpp(342): warning C4101: “jd”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(342): warning C4101: “id”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(342): warning C4101: “w”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(506): warning C4101: “newmask”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(492): warning C4101: “s”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(492): warning C4101: “q”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(506): warning C4101: “newval”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(492): warning C4101: “r”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(342): warning C4101: “j”: 未引用的局部变量
+     1>.\cv2sim\cv2simSmall.cpp(752): warning C4244: “初始化”: 从“int64”转换到“double”，可能丢失数据
+     1>.\cv2sim\cv2simSmall.cpp(810): warning C4244: “=”: 从“int64”转换到“double”，可能丢失数据
+     1>.\cv2sim\cv2simSmall.cpp(872): warning C4244: “=”: 从“int64”转换到“double”，可能丢失数据
+     1>.\cv2sim\cv2simSmall.cpp(890): warning C4101: “blobPtr”: 未引用的局部变量
+         dmatrix.cpp
+         draw.cpp
+         homography.cpp
+         imagealign.cpp
+         light_scaling.cpp
+     1>.\cv2sim\light_scaling.cpp(3): warning C4005: “__min”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(182) : 参见“__min”的前一个定义
+     1>.\cv2sim\light_scaling.cpp(4): warning C4005: “__max”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(181) : 参见“__max”的前一个定义
+         LinAlg.cpp
+     1>.\cv2sim\LinAlg.cpp(13): warning C4005: “__min”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(182) : 参见“__min”的前一个定义
+     1>.\cv2sim\LinAlg.cpp(14): warning C4005: “__max”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(181) : 参见“__max”的前一个定义
+         match.cpp
+     1>.\cv2sim\match.cpp(13): warning C4005: “__min”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(182) : 参见“__min”的前一个定义
+     1>.\cv2sim\match.cpp(14): warning C4005: “__max”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(181) : 参见“__max”的前一个定义
+         median.cpp
+         mic.cpp
+     1>d:\softwares\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>.\cv2sim\mic.cpp(9): warning C4005: “__min”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(182) : 参见“__min”的前一个定义
+     1>.\cv2sim\mic.cpp(10): warning C4005: “__max”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(181) : 参见“__max”的前一个定义
+         minmax.cpp
+         nms.cpp
+     1>.\cv2sim\nms.cpp(6): warning C4005: “__min”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(182) : 参见“__min”的前一个定义
+     1>.\cv2sim\nms.cpp(7): warning C4005: “__max”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(181) : 参见“__max”的前一个定义
+         nrutil.cpp
+         optim.cpp
+     1>.\cv2sim\optim.cpp(30): warning C4005: “__min”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(182) : 参见“__min”的前一个定义
+     1>.\cv2sim\optim.cpp(31): warning C4005: “__max”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(181) : 参见“__max”的前一个定义
+     1>.\cv2sim\optim.cpp(589): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>.\cv2sim\optim.cpp(590): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>.\cv2sim\optim.cpp(591): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+         robust_estimators.cpp
+     1>.\cv2sim\robust_estimators.cpp(12): warning C4005: “__min”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(182) : 参见“__min”的前一个定义
+     1>.\cv2sim\robust_estimators.cpp(13): warning C4005: “__max”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(181) : 参见“__max”的前一个定义
+     1>.\cv2sim\robust_estimators.cpp(44): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>.\cv2sim\robust_estimators.cpp(156): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>.\cv2sim\robust_estimators.cpp(187): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>.\cv2sim\robust_estimators.cpp(381): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>.\cv2sim\robust_estimators.cpp(419): warning C4804: “>”: 在操作中使用类型“bool”不安全
+     1>.\cv2sim\robust_estimators.cpp(481): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>.\cv2sim\robust_estimators.cpp(537): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>.\cv2sim\robust_estimators.cpp(616): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>.\cv2sim\robust_estimators.cpp(659): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>.\cv2sim\robust_estimators.cpp(699): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>.\cv2sim\robust_estimators.cpp(737): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+         正在编译...
+         select.cpp
+         grace_main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Owner\Desktop\project-grace-cuda\GraceCPP\project-wish-cuda.exe" /NOLOGO /LIBPATH:C:\cuda\toolkit\lib\Win32 cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_calib3d249d.lib opencv_contrib249d.lib opencv_core249d.lib opencv_features2d249d.lib opencv_flann249d.lib opencv_gpu249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_legacy249d.lib opencv_ml249d.lib opencv_nonfree249d.lib opencv_objdetect249d.lib opencv_ocl249d.lib opencv_photo249d.lib opencv_stitching249d.lib opencv_superres249d.lib opencv_ts249d.lib opencv_video249d.lib opencv_videostab249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Owner\Desktop\project-grace-cuda\GraceCPP\project-wish-cuda.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Owner\Desktop\project-grace-cuda\GraceCPP\project-wish-cuda.lib" /MACHINE:X86 /SAFESEH GraceCPP\grace.cu.obj
+         GraceCPP\affine.obj
+         GraceCPP\brMemalloc.obj
+         GraceCPP\Candidate.obj
+         GraceCPP\cmotion_detection.obj
+         GraceCPP\CornerClass.obj
+         GraceCPP\cv2simSmall.obj
+         GraceCPP\dmatrix.obj
+         GraceCPP\draw.obj
+         GraceCPP\homography.obj
+         GraceCPP\imagealign.obj
+         GraceCPP\light_scaling.obj
+         GraceCPP\LinAlg.obj
+         GraceCPP\match.obj
+         GraceCPP\median.obj
+         GraceCPP\mic.obj
+         GraceCPP\minmax.obj
+         GraceCPP\nms.obj
+         GraceCPP\nrutil.obj
+         GraceCPP\optim.obj
+         GraceCPP\robust_estimators.obj
+         GraceCPP\select.obj
+         GraceCPP\grace_main.obj
+     1>opencv_core249d.lib(array.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_core249d.lib(array.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_core249d.lib(drawing.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_core249d.lib(drawing.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_core249d.lib(system.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_core249d.lib(system.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_core249d.lib(arithm.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_core249d.lib(arithm.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_core249d.lib(copy.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_core249d.lib(copy.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_core249d.lib(datastructs.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_core249d.lib(datastructs.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_core249d.lib(convert.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_core249d.lib(convert.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_core249d.lib(opencv_core_pch.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_core249d.lib(opencv_core_pch.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_core249d.lib(alloc.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_core249d.lib(alloc.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_core249d.lib(matrix.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_core249d.lib(matrix.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_core249d.lib(persistence.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_core249d.lib(persistence.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_core249d.lib(tables.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_core249d.lib(tables.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_core249d.lib(mathfuncs.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_core249d.lib(mathfuncs.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_core249d.lib(stat.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_core249d.lib(stat.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_core249d.lib(rand.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_core249d.lib(rand.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_core249d.lib(parallel.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_core249d.lib(parallel.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_core249d.lib(matop.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_core249d.lib(matop.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_core249d.lib(gpumat.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_core249d.lib(gpumat.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_core249d.lib(opengl_interop_deprecated.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_core249d.lib(opengl_interop_deprecated.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_core249d.lib(opengl_interop.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_core249d.lib(opengl_interop.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_core249d.lib(matmul.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_core249d.lib(matmul.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_core249d.lib(lapack.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_core249d.lib(lapack.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(window_w32.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(window_w32.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(loadsave.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(loadsave.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(opencv_highgui_pch.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(opencv_highgui_pch.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(utils.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(utils.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(grfmt_bmp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(grfmt_bmp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(grfmt_sunras.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(grfmt_sunras.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(grfmt_jpeg.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(grfmt_jpeg.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(grfmt_pxm.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(grfmt_pxm.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(grfmt_tiff.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(grfmt_tiff.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(grfmt_png.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(grfmt_png.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(grfmt_jpeg2000.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(grfmt_jpeg2000.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(grfmt_exr.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(grfmt_exr.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(bitstrm.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(bitstrm.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(grfmt_base.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_highgui249d.lib(grfmt_base.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(thresh.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(thresh.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(smooth.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(smooth.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(deriv.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(deriv.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(color.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(color.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(contours.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(contours.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(pyramids.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(pyramids.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(imgwarp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(imgwarp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(shapedescr.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(shapedescr.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(opencv_imgproc_pch.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(opencv_imgproc_pch.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(filter.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(filter.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(utils.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(utils.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(tables.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(tables.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(approx.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(approx.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(rotcalipers.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(rotcalipers.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(matchcontours.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(matchcontours.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(convhull.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(convhull.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(geometry.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(geometry.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(linefit.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(linefit.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(templmatch.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(templmatch.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(moments.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(moments.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(sumpixels.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>opencv_imgproc249d.lib(sumpixels.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfHeader.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfFrameBuffer.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfInputFile.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfOutputFile.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfChannelList.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(half.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfChromaticities.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfStandardAttributes.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(IexBaseExc.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfIO.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfStdIO.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfCompressor.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfBoxAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfChannelListAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfChromaticitiesAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfCompressionAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfDoubleAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfEnvmapAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfFloatAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfIntAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfKeyCode.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfKeyCodeAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfLineOrderAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfMatrixAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfOpaqueAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfPreviewImage.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfPreviewImageAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfRationalAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfStringAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfStringVectorAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfTileDescriptionAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfTimeCode.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfTimeCodeAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfVecAttribute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(IlmThreadMutexWin32.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(IlmThreadPool.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfScanLineInputFile.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfTiledInputFile.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfMisc.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(IlmThreadSemaphoreWin32.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(IexThrowErrnoExc.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfRleCompressor.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfZipCompressor.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfPizCompressor.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfPxr24Compressor.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfB44Compressor.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(IlmThreadWin32.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfTiledMisc.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfTileOffsets.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfConvert.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>IlmImf.lib(ImfHuf.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_core249.lib(dxt.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>opencv_core249.lib(opencv_core_pch.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>libcpmtd.lib(stdthrow.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>libcpmtd.lib(stdthrow.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>libcpmtd.lib(xdebug.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>libcpmtd.lib(xdebug.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>libcpmtd.lib(locale0.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>libcpmtd.lib(locale0.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>libcpmtd.lib(cerr.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>libcpmtd.lib(cerr.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>libcpmtd.lib(ios.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>libcpmtd.lib(ios.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>libcpmtd.lib(fiopen.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>libcpmtd.lib(fiopen.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>libcpmtd.lib(iosptrs.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>libcpmtd.lib(iosptrs.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>libcpmtd.lib(locale.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>libcpmtd.lib(locale.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>libcpmtd.lib(xlock.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>libcpmtd.lib(xlock.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>libcpmtd.lib(xthrow.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>libcpmtd.lib(xthrow.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>libcpmtd.lib(wlocale.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>libcpmtd.lib(wlocale.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>libcpmtd.lib(xlocale.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>libcpmtd.lib(xlocale.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>libcpmtd.lib(xdateord.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“2”不匹配值“0”(grace.cu.obj 中)
+     1>libcpmtd.lib(xdateord.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MD_DynamicRelease”(grace.cu.obj 中)
+     1>LIBCMTD.lib(fpinit.obj) : error LNK2005: __fltused 已经在 a previous module 中定义
+     1>LIBCMTD.lib(fpinit.obj) : error LNK2005: __ldused 已经在 a previous module 中定义
+     1>LIBCMTD.lib(crt0init.obj) : error LNK2005: ___xi_a 已经在 MSVCRT.lib(cinitexe.obj) 中定义
+     1>LIBCMTD.lib(crt0init.obj) : error LNK2005: ___xi_z 已经在 MSVCRT.lib(cinitexe.obj) 中定义
+     1>LIBCMTD.lib(crt0init.obj) : error LNK2005: ___xc_a 已经在 MSVCRT.lib(cinitexe.obj) 中定义
+     1>LIBCMTD.lib(crt0init.obj) : error LNK2005: ___xc_z 已经在 MSVCRT.lib(cinitexe.obj) 中定义
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: 默认库“LIBCMTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>C:\Users\Owner\Desktop\project-grace-cuda\GraceCPP\project-wish-cuda.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
+     1>已完成生成项目“C:\Users\Owner\Desktop\project-grace-cuda\project-wish-cuda.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:15.01
